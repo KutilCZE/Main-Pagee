@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*fonts*/
+
+h1 {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Azonix;
+    text-shadow: 6px 1px 1px gray;
+    margin-bottom: 45px;
+}
+/*ASTA white txt*/
+
+h2 {
+    padding: 18px 0px;
+    background-color: black;
+    color: lightgray;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 250px;
+    margin-bottom: 10px;
+}
+/*Independence Gray txt*/
+
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: Seymour One;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 400px;
+}
+/*txt in div header*/
+
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*button line*/
+
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0.10rem;
+    position: relative;
+}
+/*txt in menu*/
+
+.menuButton {
+    margin: 6px 2px;
+    width: fit-content;
+    background-color: black;
+    border: 2px white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-right: 2px;
+    float: left;
+    transition: all 0.2s ease-in-out;
+}
+/*menu button format*/
+
+.menuButton:hover {
+    background-color: darkgrey;
+    color: black;
+}
+/*menu button animation*/
+
+.onas-section {
+    margin: 25px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+/*onas-sexion*/
+
+.onas-div-main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+/*main div*/
+
+.onas-div-left {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+/*leva cast*/
+
+.onas-img {
+    width: auto;
+    border: solid black 5px;
+    margin-top: 20px;
+}
+/*img format*/
+
+.onas-div-header {
+    display: flex;
+    background-color: black;
+    align-content: center;
+}
+/*header format*/
+
+.arrows {
+    opacity: 0%;
+    transition: 0.7s;
+}
+/*arrow basic*/
+
+.info:hover #arrows {
+    opacity: 100%;
+    transition: all 0.7s ease-in-out;
+    margin-left: 325px;
+}
+/*arrows kdyz na ne najedu*/
+
+.onas-div-right{
+    border: solid black 5px;
+    margin-left: 100px;
+    max-height: 492px;
+    padding: 8px;
+}
+/*prava cast*/
+
