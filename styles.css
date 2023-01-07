@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*fonts*/
+
+/*ASTA White txt*/
+h1 {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-family: Azonix;
+    text-shadow: 6px 1px 1px gray;
+    margin-bottom: 45px;
+}
+
+/*Independence Gray txt*/
+h2 {
+    padding: 18px 0px;
+    background-color: black;
+    color: lightgray;
+    text-align: right;
+    font-size: 15px;
+    padding-right: 250px;
+    margin-bottom: 10px;
+}
+
+/*txt in div header*/
+h3 {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: Seymour One;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 400px;
+}
+
+/*button line*/
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*txt in menu*/
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0.10rem;
+    position: relative;
+}
+
+/*menu button format*/
+.menuButton {
+    margin: 6px 2px;
+    width: fit-content;
+    background-color: black;
+    border: 2px white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-right: 2px;
+    float: left;
+    transition: all 0.2s ease-in-out;
+}
+
+/*menu button animation*/
+.menuButton:hover {
+    background-color: darkgrey;
+    color: black;
+}
+
+/*onas-section*/
+.onas-section {
+    margin: 25px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+}
+
+/*main div*/
+.onas-div-main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+/*leva cast*/
+.onas-div-left {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+/*img format*/
+.onas-img {
+    width: auto;
+    border: solid black 5px;
+    margin-top: 20px;
+}
+
+/*header format*/
+.onas-div-header {
+    display: flex;
+    background-color: black;
+    align-content: center;
+}
+
+/*arrow basic*/
+.arrows {
+    opacity: 0%;
+    transition: 0.7s;
+}
+
+/*arrows when hover*/
+.info:hover #arrows {
+    opacity: 100%;
+    transition: all 0.7s ease-in-out;
+    margin-left: 325px;
+}
+
+/*right part*/
+.onas-div-right{
+    border: solid black 5px;
+    margin-left: 100px;
+    max-height: 484px;
+    padding: 8px;
+    padding-bottom: 0px;
+}
+
+/*right part txt style*/
+.onas-right-txt{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+}
+
+/*right part header style*/
+.onas-right-header{
+    color: black;
+    background-color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/*left part header style*/
+.onas-left-header{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
