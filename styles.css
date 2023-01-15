@@ -170,5 +170,142 @@ header {
 .onas-left-header{
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+}
+
+.advertisement{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+.reklama{
+    border: solid black 5px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.reklama:hover{
+    cursor: help;
+}
+
+.reklama-variable{
+    height: 960;
+    width: 128;
+    align-content: center;
+    display: flex;
+}
+
+/*bulvar-section*/
+.bulvar-section {
+    margin: 25px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+/*main div*/
+.bulvar-div-main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+/*prava cast*/
+.bulvar-div-right {
+    margin-left: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*img format*/
+.bulvar-img {
+    width: auto;
+    border: solid black 5px;
+    margin-top: 20px;
+}
+
+/*header format*/
+.bulvar-div-header {
+    display: flex;
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    padding-right: 50px;
+}
+
+/*arrow basic*/
+.arrows-left {
+    opacity: 0%;
+    transition: 0.7s;
+}
+
+/*arrows when hover*/
+.info-second:hover #arrows-left {
+    opacity: 100%;
+    transition: all 0.7s ease-in-out;
+    margin-left: -345px;
+    margin-right: 345px;
+}
+
+/*left part*/
+.bulvar-div-left{
+    max-height: 484px;
+    padding: 8px;
+    padding-bottom: 0px;
+    margin-right: 20px;
+    border: solid black 5px;
+}
+
+/*left txt style*/
+.bulvar-left-txt{
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: left;
+    align-content: center;
+}
+
+/*left part header style*/
+.bulvar-left-header{
+    color: black;
+    background-color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+/*right part header style*/
+.bulvar-right-header{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+footer{
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-odkazy{
+    height: 40px;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
