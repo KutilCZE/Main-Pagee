@@ -352,3 +352,164 @@ footer{
         /*LOGIN WEB*/
 /*---------------------------*/
 
+.div-picture{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.login-picture{
+    display: flex;
+    margin-top: 100px;
+    height: 80px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.header-section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.div-header{
+    border: solid black 7px;
+    display: flex;
+    background-color: black;
+}
+
+.login-header{
+    margin: 5px;
+}
+
+.login-header-txt{
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.form-section{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30vh;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+.form-login-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-email,.login-password{
+    padding: 8px;
+    border-radius: 0;
+    border: solid black 5px;
+    margin-top: 13px;
+    width: 26vh;
+}
+
+.login-button{
+    background-color: black;
+    margin-left: 10px;
+}
+
+.login-button-img{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 75%;
+    transition: all 0.08s ease-in-out;
+}
+
+.login-email{
+    margin-top: 0px;
+}
+
+.login-button-img:hover{
+    background-color: white;
+}
+
+.form-options{
+    margin-top: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.form-options-regy,.form-options-pass{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 15px;
+    font-style: italic;
+}
+
+.form-options-pass{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*----------------------------*/
+    /*WORK IN PROGRESS WEB*/
+/*----------------------------*/
+
+.WIP-img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10vh;
+    flex-direction: row;
+    width: 29.2vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.WIP-txt{
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-size: 5vh;
+    font-style: bold;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    height: auto;
+    display: flex;
+    border: solid black 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.WIP-cs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5vh;
+}
+
+.WIP-cs-txt{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin: 10px;
+    text-align: left;
+    font-style: italic;
+}
